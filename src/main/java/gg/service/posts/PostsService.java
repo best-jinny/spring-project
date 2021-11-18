@@ -3,8 +3,8 @@ package gg.service.posts;
 import gg.web.dto.PostsResponseDto;
 import gg.web.dto.PostsSaveRequestDto;
 import gg.web.dto.PostsUpdateRequestDto;
-import gg.web.posts.Posts;
-import gg.web.posts.PostsRepository;
+import gg.domain.posts.Posts;
+import gg.domain.posts.PostsRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

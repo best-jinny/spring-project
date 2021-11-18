@@ -1,6 +1,6 @@
 package gg.web.dto;
 
-import gg.web.posts.Posts;
+import gg.domain.posts.Posts;
 import lombok.Getter;
 
 @Getter

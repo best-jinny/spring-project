@@ -2,9 +2,8 @@ package gg.web;
 
 import gg.web.dto.PostsSaveRequestDto;
 import gg.web.dto.PostsUpdateRequestDto;
-import gg.web.posts.Posts;
-import gg.web.posts.PostsRepository;
-import org.assertj.core.api.Assertions;
+import gg.domain.posts.Posts;
+import gg.domain.posts.PostsRepository;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

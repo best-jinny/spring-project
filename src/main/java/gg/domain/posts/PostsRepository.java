@@ -1,4 +1,4 @@
-package gg.web.posts;
+package gg.domain.posts;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

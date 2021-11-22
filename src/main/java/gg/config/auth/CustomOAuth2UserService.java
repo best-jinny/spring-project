@@ -23,6 +23,7 @@ public class CustomOAuth2UserService implements OAuth2UserService<OAuth2UserRequ
         private final UserRepository userRepository;
         private final HttpSession httpSession;
 
+        @Override
         public OAuth2User loadUser(OAuth2UserRequest userRequest) throws OAuth2AuthenticationException {
                 OAuth2UserService<OAuth2UserRequest, OAuth2User> delegate = new DefaultOAuth2UserService();
                 OAuth2User oAuth2User = delegate.loadUser(userRequest);
